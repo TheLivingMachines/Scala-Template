@@ -1,0 +1,8 @@
+target
+.ensime_cache/
+.ensime
+*.class
+*.iml
+*.ipr
+*.iws
+.idea
