@@ -6,7 +6,7 @@ import org.scalatest.junit.JUnitRunner
 
 @RunWith(classOf[JUnitRunner])
 class BalanceSuite extends FunSuite {
-  import com.training.dayTwo.Exercise.balance
+  import com.training.dayOne.Exercise.balance
 
   test("balance: '(if (zero? x) max (/ 1 x))' is balanced") {
     assert(balance("(if (zero? x) max (/ 1 x))".toList))
