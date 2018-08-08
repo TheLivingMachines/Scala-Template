@@ -96,8 +96,8 @@ object E_ImmutableList {
     new ConsT[T](elem, new NilT[T])
 
   // singleton object creation
-  singleton(Int)(1)
-  singleton(Boolean)(true)
+  singleton[Int](1)
+  singleton[Boolean](true)
 
 
   /**
